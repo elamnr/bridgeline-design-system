@@ -1,0 +1,13 @@
+:root{
+--bl-font-display:'Antonio','Oswald','Arial Narrow',sans-serif;
+--bl-font-body:'Antonio','Oswald','Arial Narrow',sans-serif;
+--bl-font-wide:'Saira','Dosis',sans-serif;
+--bl-font-numeric:'Antonio','Oswald','Arial Narrow',sans-serif;
+/* Weights, sizes, leading and tracking are declared in tokens.css, generated from tokens.json. */
+/* Semantic */
+--bl-type-title:var(--bl-weight-medium) var(--bl-text-2xl)/var(--bl-leading-tight) var(--bl-font-display);
+--bl-type-headline:var(--bl-weight-light) var(--bl-text-2xl)/1 var(--bl-font-wide);
+--bl-type-label:var(--bl-weight-medium) var(--bl-text-sm)/var(--bl-leading-snug) var(--bl-font-display);
+--bl-type-body:var(--bl-weight-regular) var(--bl-text-md)/var(--bl-leading-body) var(--bl-font-body);
+--bl-type-numeric:var(--bl-weight-regular) var(--bl-text-sm)/var(--bl-leading-snug) var(--bl-font-numeric);
+}

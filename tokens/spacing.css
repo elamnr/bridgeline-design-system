@@ -1,0 +1,6 @@
+:root{
+/* Seam, spacing, bar, arm, radius and shadow values are declared in tokens.css, generated from tokens.json. */
+--bl-dur-blink:900ms;/* @kind other */
+--bl-dur-fast:80ms;/* @kind other */
+--bl-ease:steps(1,end);/* @kind other */
+}

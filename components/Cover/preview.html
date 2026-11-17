@@ -1,0 +1,38 @@
+<!-- @dsCard height=336 -->
+<style>
+html,body{margin:0;background:var(--bl-space)}
+.wrap{position:relative;width:960px;height:336px;background:var(--bl-space);overflow:hidden}
+.band{position:absolute;left:0;top:0;display:block}
+.amber{fill:var(--bl-amber)}.tan{fill:var(--bl-tan)}.lilac{fill:var(--bl-lilac)}.peach{fill:var(--bl-peach)}.sky{fill:var(--bl-sky)}
+.pill{rx:12px}.cap{rx:20px}
+.name{position:absolute;left:48px;top:158px;margin:0;font-family:var(--bl-font-display);font-weight:500;font-size:64px;line-height:.95;color:var(--bl-title);letter-spacing:var(--bl-tracking)}
+.tag{position:absolute;left:48px;top:292px;margin:0;font-family:var(--bl-font-body);font-size:14px;line-height:1.2;color:var(--bl-text-muted);letter-spacing:var(--bl-tracking)}
+</style>
+<div class="wrap">
+<svg class="band" width="960" height="336" viewBox="0 0 960 336" aria-hidden="true">
+<!-- blocks: bl-amber elbow 220x110 (arm 120 = bl-arm-md, bar 40), bl-tan 300, bl-lilac 96, bl-peach 180, bl-sky cap 68, all 40 tall
+     arrangement: top-band skeleton (name too wide for its zone at 64px): one elbow turning into a segmented header bar, seams of bl-seam (4px)
+     pattern: readout-pill row (literal motif): the brand's notch readout of capsules; chosen because the README names the pill readout as its layout signature
+     scales: gaps bl-seam 4px, insets bl-space-12/bl-space-6, pill rx half of 24, cap rx 20, elbow outer radius 110, inner 36 -->
+<path class="amber" transform="translate(40,24)" d="M0,110 L0,110 A110,110 0 0 1 110,0 L220,0 L220,40 L156,40 A36,36 0 0 0 120,76 L120,110 Z"/>
+<rect class="tan" x="264" y="24" width="300" height="40"/>
+<rect class="lilac" x="568" y="24" width="96" height="40"/>
+<rect class="peach" x="668" y="24" width="180" height="40"/>
+<rect class="sky cap" x="852" y="24" width="68" height="40"/>
+<rect class="sky" x="852" y="24" width="34" height="40"/>
+<rect class="peach pill" x="168" y="100" width="48" height="24"/>
+<rect class="lilac pill" x="220" y="100" width="96" height="24"/>
+<rect class="sky pill" x="320" y="100" width="28" height="24"/>
+<rect class="peach pill" x="352" y="100" width="46" height="24"/>
+<rect class="tan pill" x="402" y="100" width="60" height="24"/>
+<rect class="amber pill" x="466" y="100" width="120" height="24"/>
+<rect class="sky pill" x="590" y="100" width="36" height="24"/>
+<rect class="lilac pill" x="630" y="100" width="52" height="24"/>
+<rect class="peach pill" x="686" y="100" width="40" height="24"/>
+<rect class="tan pill" x="730" y="100" width="88" height="24"/>
+<rect class="sky pill" x="822" y="100" width="44" height="24"/>
+<rect class="amber pill" x="870" y="100" width="50" height="24"/>
+</svg>
+<h1 class="name">Bridgeline<br>Design System</h1>
+<p class="tag">An original visual language for printed and engraved artwork</p>
+</div>

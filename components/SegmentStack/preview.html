@@ -1,0 +1,10 @@
+<!-- @dsCard group="Composites" height=220 -->
+<style>html,body{margin:0;background:var(--bl-space)}body{color:var(--bl-text);font-family:var(--bl-font-display);text-transform:uppercase;letter-spacing:var(--bl-tracking);padding:16px}</style>
+<div id="root"></div>
+<script>
+const h=React.createElement, NS=window.BridgelineDesignSystem_9b57ee;
+const {SegmentStack}=NS;
+ReactDOM.createRoot(document.getElementById('root')).render(h('div',{style:{display:'flex',gap:24,alignItems:'flex-start'}},
+ h(SegmentStack,{thickness:120,style:{height:180},segments:[{label:'01-4471',color:'tan',size:64},{label:'02',color:'peach',size:'flex'},{label:'03',color:'lilac',size:40}]}),
+ h(SegmentStack,{orientation:'horizontal',thickness:22,segments:[{label:'A',color:'sky',size:50},{label:'B',color:'violet',size:70},{label:'C',color:'lilac',size:40}]})));
+</script>
